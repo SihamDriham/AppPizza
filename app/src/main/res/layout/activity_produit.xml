@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <!-- Header avec le titre de la page -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Pizza recipes"
+        android:textSize="24sp"
+        android:textColor="#FFFFFF"
+        android:background="#E91E63"
+        android:gravity="center"
+        android:padding="16dp" />
+
+    <!-- Image du produit -->
+
+    <ImageView
+        android:id="@+id/produit_image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:paddingTop="16dp"
+        android:contentDescription="Image du produit" />
+
+    <!-- Nom du produit en italique -->
+    <TextView
+        android:id="@+id/produit_nom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="BRUSCHETTA PIZZA"
+        android:textStyle="italic"
+        android:textSize="20sp"
+        android:layout_gravity="center"
+        android:paddingTop="8dp"
+        android:paddingBottom="16dp" />
+
+    <!-- Section description -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Description :"
+        android:textStyle="bold"
+        android:textSize="16sp"
+        android:paddingBottom="4dp" />
+
+    <TextView
+        android:id="@+id/produit_description"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Description du produit ici."
+        android:textSize="14sp"
+        android:paddingBottom="16dp" />
+
+    <!-- Section Ingrédients -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ingrédients :"
+        android:textStyle="bold"
+        android:textSize="16sp"
+        android:paddingBottom="4dp" />
+
+    <TextView
+        android:id="@+id/produit_ingredients"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Détails des ingrédients ici."
+        android:textSize="14sp"
+        android:paddingBottom="16dp" />
+
+</LinearLayout>
